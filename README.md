@@ -139,7 +139,7 @@ Bundler provides a few options.
 You can refer to the gem via its GitHub repository:
 
 ```ruby
-gem 'rack', git: 'https://github.com/rack/rack'
+gem 'rack', git: 'https://github.com/awesome-print/awesome_print'
 ```
 
 Provided that the GitHub repository is for the gem only, this simple invocation
@@ -348,7 +348,7 @@ returns false. However...
 - [require_relative][require_relative] takes a relative path that is relative to
   the file in which the require statement is called (so it's relative to the
   file being run, not to the directory from which the code is being called).
-  
+
   *Top Tip: Use SSH syntax for the AwesomePrint Gem.*
 
 ## Resources
@@ -361,4 +361,3 @@ returns false. However...
 [require]: http://apidock.com/ruby/Kernel/require
 [require_relative]: http://apidock.com/ruby/Kernel/require_relative
 [git-bundler]: https://bundler.io/guides/git.html
-
